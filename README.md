@@ -2,12 +2,12 @@
 At Boggot Technologies, we transform complex information into easy-to-follow, visually rich, and interactive documentation. Whether it’s user guides, API documentation, or developer manuals, we ensure every detail is structured for clarity and usability.
 
 ## 📌 Why Choose Our Documentation?
-✅ Simple & Intuitive – Breaking down technical concepts into easy steps.
-✅ Visually Enhanced – Featuring annotated screenshots, GIFs, and interactive elements.
-✅ Developer-Friendly – Well-documented APIs with clear examples.
-✅ Designed for All Users – From first-time users to experienced developers.
+✅ Simple & Intuitive – Breaking down technical concepts into easy steps.<br>
+✅ Visually Enhanced – Featuring annotated screenshots, GIFs, and interactive elements.<br>
+✅ Developer-Friendly – Well-documented APIs with clear examples.<br>
+✅ Designed for All Users – From first-time users to experienced developers.<br>
 
-💡 Make your documentation work for you—engage, educate, and empower your audience effortlessly! 🚀
+💡 Make your documentation work for you—engage, educate, and empower your audience effortlessly! 🚀<br>
 
 # Available Scripts
 
