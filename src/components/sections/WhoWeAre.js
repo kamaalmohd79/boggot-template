@@ -11,7 +11,7 @@ const propTypes = {
 const defaultProps = {
   ...SectionTilesProps.defaults
 }
-const FeaturesTiles = ({
+const Whoweare = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Our Services',
-    paragraph: 'We specialize in providing a wide range of documentation solutions, tailored to meet the needs of software platforms and developers.'
+    title: 'Who We Are',
+    paragraph: 'Boggot Technologies is a documentation organization dedicated to delivering high-quality user manuals, API documentation, how-to guides, and developer documentation. Our team ensures that every document is structured, visually appealing, and easy to understand.'
   };
 
   return (
@@ -63,7 +63,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      src={require('./../../assets/images/checkmark.svg')}
                       alt="Features tile icon 01"
                       width={64}
                       height={64} />
@@ -71,10 +71,9 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                  User Manuals
+                  High-Quality Documentation
                     </h4>
                   <p className="m-0 text-sm">
-                  Step-by-step guides for users
                     </p>
                 </div>
               </div>
@@ -85,7 +84,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-02.svg')}
+                      src={require('./../../assets/images/checkmark.svg')}
                       alt="Features tile icon 02"
                       width={64}
                       height={64} />
@@ -93,54 +92,9 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                  Software Documentation
+                  Visuals & GIFs for Easy Understanding
                     </h4>
                   <p className="m-0 text-sm">
-                  Technical and functional documentation
-                    </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
-                      alt="Features tile icon 03"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                  API Documentation
-                    </h4>
-                  <p className="m-0 text-sm">
-                  Interactive and structured API documentation
-                    </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
-                      alt="Features tile icon 04"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                  Developer Guides
-                    </h4>
-                  <p className="m-0 text-sm">
-                  Best practices and integration instructions
                     </p>
                 </div>
               </div>
@@ -151,40 +105,59 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-05.svg')}
-                      alt="Features tile icon 05"
+                      src={require('./../../assets/images/checkmark.svg')}
+                      alt="Features tile icon 02"
                       width={64}
                       height={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                  Video Tutorials
+                  API & Developer Guides
                     </h4>
                   <p className="m-0 text-sm">
-                  Step-by-step instructional videos
                     </p>
                 </div>
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
-                      alt="Features tile icon 06"
+                      src={require('./../../assets/images/checkmark.svg')}
+                      alt="Features tile icon 02"
                       width={64}
                       height={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                  Annotated Screenshots & GIFs
+                  User-Friendly Manuals
                     </h4>
                   <p className="m-0 text-sm">
-                  Visual guides for easy understanding
+                    </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('./../../assets/images/checkmark.svg')}
+                      alt="Features tile icon 02"
+                      width={64}
+                      height={64} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                  Interactive Elements
+                    </h4>
+                  <p className="m-0 text-sm">
                     </p>
                 </div>
               </div>
@@ -197,7 +170,7 @@ const FeaturesTiles = ({
   );
 }
 
-FeaturesTiles.propTypes = propTypes;
-FeaturesTiles.defaultProps = defaultProps;
+Whoweare.propTypes = propTypes;
+Whoweare.defaultProps = defaultProps;
 
-export default FeaturesTiles;
+export default Whoweare;

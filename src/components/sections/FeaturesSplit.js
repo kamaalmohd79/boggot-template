@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Our Process',
+    paragraph: ''
   };
 
   return (
@@ -70,10 +70,10 @@ const FeaturesSplit = ({
                   Lightning fast workflow
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                Understanding Your Needs
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                At Boggot Technologies, we believe that effective documentation starts with a deep understanding of your product and its audience. During this phase, we work closely with you to gather detailed insights about your software, target users, and specific documentation requirements.
                   </p>
               </div>
               <div className={
@@ -96,10 +96,10 @@ const FeaturesSplit = ({
                   Lightning fast workflow
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Structuring the Content
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Once we have a clear understanding of your documentation needs, the next step is to structure the content in a way that makes it easy to navigate, understand, and use. A well-structured document enhances user experience, reduces confusion, and ensures that readers can quickly find the information they need.
                   </p>
               </div>
               <div className={
@@ -122,10 +122,64 @@ const FeaturesSplit = ({
                   Lightning fast workflow
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Adding Visuals & Interactivity
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                We understand that documentation should not just be text-heavy but also engaging, interactive, and easy to understand. Visual elements and interactivity help users grasp complex topics faster and provide a seamless learning experience.<br></br>
+                This stage of the process involves enhancing documentation with visuals, annotated screenshots, GIFs, videos, and interactive elements to improve usability and comprehension.
+                  </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/features-split-image-03.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Lightning fast workflow
+                  </div>
+                <h3 className="mt-0 mb-12">
+                  Review & Feedback
+                  </h3>
+                <p className="m-0">
+                  We believe that high-quality documentation is a collaborative and iterative effort. To ensure that our documentation is accurate, user-friendly, and meets industry standards, we follow a structured Review & Feedback process.<br></br>
+                  This phase involves multiple levels of review, gathering stakeholder feedback, testing usability, and refining content based on real-world insights.
+                  </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/features-split-image-03.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Lightning fast workflow
+                  </div>
+                <h3 className="mt-0 mb-12">
+                  Final Delivery
+                  </h3>
+                <p className="m-0">
+                  The Final Delivery phase is the culmination of our structured documentation process. At Boggot Technologies, we ensure that the documentation is polished, accessible, and seamlessly integrated into your platform. This step is not just about handing over files—it's about ensuring usability, scalability, and long-term maintainability of your documentation.
                   </p>
               </div>
               <div className={
