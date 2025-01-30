@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
+import Image from '../elements/Image';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -62,14 +63,25 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
+                    — Everything went smooth, Kamaal helped us update our Help Center with valuable technical articles for our API's and Webhooks. Our company does Payment Processing.
+                  </p>
                 </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Roman Level</span>
+                <div className='mt-8' style={{ display: "flex" }}>
+                  {[...Array(5)].map((_, i) => (
+                    <Image
+                      key={i}
+                      src={require('./../../assets/images/icons8-star-filled.png')}
+                      alt="Rating Stars"
+                      width={20}
+                      height={20}
+                    />
+                  ))}
+                </div>
+                <div className="testimonial-item-footer text-xs mt-16 mb-0 has-top-divider">
+                  <span className="testimonial-item-name text-color-high">Duke Vu</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="https://fungies.io/" target="_blank" rel="noopener noreferrer">Fungies.io</a>
                   </span>
                 </div>
               </div>
@@ -79,14 +91,25 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
+                    — Mohd does excellent and thorough work. I have enjoyed working with him. We will use him again.
+                  </p>
                 </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
+                <div className='mt-8' style={{ display: "flex" }}>
+                  {[...Array(5)].map((_, i) => (
+                    <Image
+                      key={i}
+                      src={require('./../../assets/images/icons8-star-filled.png')}
+                      alt="Rating Stars"
+                      width={20}
+                      height={20}
+                    />
+                  ))}
+                </div>
+                <div className="testimonial-item-footer text-xs mt-16 mb-0 has-top-divider">
+                  <span className="testimonial-item-name text-color-high">James Stephens</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#https://krown.network/" target="_blank">Krown Network</a>
                   </span>
                 </div>
               </div>
@@ -96,14 +119,25 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
+                    — Mohd did great work for us. He apply the feedback and delivered all milestones on time. Thanks!
+                  </p>
                 </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Ben Stafford</span>
+                <div className='mt-8' style={{ display: "flex" }}>
+                  {[...Array(5)].map((_, i) => (
+                    <Image
+                      key={i}
+                      src={require('./../../assets/images/icons8-star-filled.png')}
+                      alt="Rating Stars"
+                      width={20}
+                      height={20}
+                    />
+                  ))}
+                </div>
+                <div className="testimonial-item-footer text-xs mt-16 mb-0 has-top-divider">
+                  <span className="testimonial-item-name text-color-high">Carlos Guillermo</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#https://adapi.kopicloud.com/" target="_blank">KopiCloud AD API</a>
                   </span>
                 </div>
               </div>

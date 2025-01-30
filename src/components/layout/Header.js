@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import { Link } from "react-scroll";
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -44,7 +44,7 @@ const Header = ({
       document.removeEventListener('click', clickOutside);
       closeMenu();
     };
-  });  
+  });
 
   const openMenu = () => {
     document.body.classList.add('off-nav-is-active');
@@ -66,7 +66,7 @@ const Header = ({
     if (!nav.current) return
     if (!isActive || nav.current.contains(e.target) || e.target === hamburger.current) return;
     closeMenu();
-  }  
+  }
 
   const classes = classNames(
     'site-header',
@@ -112,7 +112,16 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
+                      <Link to="home" smooth={true} duration={500} style={{ cursor: "pointer" }} onClick={closeMenu}>Home</Link>
+                    </li>
+                    <li>
+                      <Link to="our-services" smooth={true} duration={500} style={{ cursor: "pointer" }} onClick={closeMenu}>Our Services</Link>
+                    </li>
+                    <li>
+                      <Link to="our-process" smooth={true} duration={500} style={{ cursor: "pointer" }} onClick={closeMenu}>Our process</Link>
+                    </li>
+                    <li>
+                      <Link to="tech-stack" smooth={true} duration={500} style={{ cursor: "pointer" }} onClick={closeMenu}>Tech Stack</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -120,7 +129,10 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
+                        <a href="https://calendly.com/kamaalofficial67" target='_blank' rel="noopener noreferrer" className="button button-primary button-wide-mobile button-sm" style={{
+                          backgroundColor: "#d95152",
+                          color: "white",
+                        }} onClick={closeMenu}>Connect with us</a>
                       </li>
                     </ul>}
                 </div>
