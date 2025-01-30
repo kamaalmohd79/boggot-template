@@ -61,7 +61,7 @@ const Whoweare = ({
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
+                  <div className="mb-16">
                     <Image
                       src={require('./../../assets/images/checkmark.svg')}
                       alt="Features tile icon 01"
@@ -82,7 +82,7 @@ const Whoweare = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
+                  <div className="mb-16">
                     <Image
                       src={require('./../../assets/images/checkmark.svg')}
                       alt="Features tile icon 02"
@@ -103,7 +103,7 @@ const Whoweare = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
+                  <div className="mb-16">
                     <Image
                       src={require('./../../assets/images/checkmark.svg')}
                       alt="Features tile icon 02"
@@ -124,7 +124,7 @@ const Whoweare = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
+                  <div className="mb-16">
                     <Image
                       src={require('./../../assets/images/checkmark.svg')}
                       alt="Features tile icon 02"
@@ -145,7 +145,7 @@ const Whoweare = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
+                  <div className="mb-16">
                     <Image
                       src={require('./../../assets/images/checkmark.svg')}
                       alt="Features tile icon 02"
