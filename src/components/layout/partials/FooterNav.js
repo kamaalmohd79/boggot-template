@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 
 const FooterNav = ({
   className,
@@ -17,7 +17,7 @@ const FooterNav = ({
       {...props}
       className={classes}
     >
-      <ul className="list-reset">
+      {/* <ul className="list-reset">
         <li>
           <Link to="#0">Contact</Link>
         </li>
@@ -27,7 +27,10 @@ const FooterNav = ({
         <li>
           <Link to="#0">FAQ's</Link>
         </li>
-      </ul>
+      </ul> */}
+      <p>
+        Chandigarh, INDIA
+      </p>
     </nav>
   );
 }

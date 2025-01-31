@@ -121,7 +121,7 @@ const Header = ({
                       <Link to="our-process" smooth={true} duration={500} style={{ cursor: "pointer" }} onClick={closeMenu}>Our process</Link>
                     </li>
                     <li>
-                      <Link to="tech-stack" smooth={true} duration={500} style={{ cursor: "pointer" }} onClick={closeMenu}>Tech Stack</Link>
+                      <Link to="tech-stack" smooth={true} duration={500} style={{ cursor: "pointer" }} onClick={closeMenu}>Our Stack</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
