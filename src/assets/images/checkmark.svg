@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64" viewBox="0 0 64 64"
-style="fill:#6163ff;">
-  <!-- Background Circle -->
-  <circle cx="32" cy="32" r="26" fill="#d95152"/>
-  
-  <!-- Checkmark Path with White Fill -->
-  <path d="M29,42L18,31l2-3l9,6l13.957-12L46,25L29,42z" fill="#ffffff"/>
-</svg>

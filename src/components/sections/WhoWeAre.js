@@ -63,7 +63,7 @@ const Whoweare = ({
                 <div className="features-tiles-item-header">
                   <div className="mb-16">
                     <Image
-                      src={require('./../../assets/images/checkmark.svg')}
+                      src={require('./../../assets/images/checkmark.png')}
                       alt="Features tile icon 01"
                       width={64}
                       height={64} />
@@ -84,7 +84,7 @@ const Whoweare = ({
                 <div className="features-tiles-item-header">
                   <div className="mb-16">
                     <Image
-                      src={require('./../../assets/images/checkmark.svg')}
+                      src={require('./../../assets/images/checkmark.png')}
                       alt="Features tile icon 02"
                       width={64}
                       height={64} />
@@ -105,7 +105,7 @@ const Whoweare = ({
                 <div className="features-tiles-item-header">
                   <div className="mb-16">
                     <Image
-                      src={require('./../../assets/images/checkmark.svg')}
+                      src={require('./../../assets/images/checkmark.png')}
                       alt="Features tile icon 02"
                       width={64}
                       height={64} />
@@ -126,7 +126,7 @@ const Whoweare = ({
                 <div className="features-tiles-item-header">
                   <div className="mb-16">
                     <Image
-                      src={require('./../../assets/images/checkmark.svg')}
+                      src={require('./../../assets/images/checkmark.png')}
                       alt="Features tile icon 02"
                       width={64}
                       height={64} />
@@ -147,7 +147,7 @@ const Whoweare = ({
                 <div className="features-tiles-item-header">
                   <div className="mb-16">
                     <Image
-                      src={require('./../../assets/images/checkmark.svg')}
+                      src={require('./../../assets/images/checkmark.png')}
                       alt="Features tile icon 02"
                       width={64}
                       height={64} />

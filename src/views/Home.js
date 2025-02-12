@@ -5,8 +5,6 @@ import Hero from '../components/sections/Hero';
 import FeaturesTiles from '../components/sections/FeaturesTiles';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
-// import Cta from '../components/sections/Cta';
-import Whoweare from '../components/sections/WhoWeAre';
 import Tools from '../components/sections/Tools';
 
 const Home = () => {
@@ -24,9 +22,9 @@ const Home = () => {
   return (
     <>
       <Hero id="home" className="illustration-section-01" />
-      <Whoweare id="whoweare" topDivider />
+      {/* <Whoweare id="whoweare" topDivider /> */}
       <FeaturesTiles id="our-services" topDivider />
-      <FeaturesSplit id="our-process" invertMobile topDivider imageFill className="illustration-section-02"/>
+      <FeaturesSplit id="our-process" invertMobile topDivider imageFill/>
       <Tools id="tech-stack" topDivider/>
       <Testimonial topDivider />
       {/* <Cta split /> */}

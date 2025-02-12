@@ -42,13 +42,6 @@ const FeaturesSplit = ({
     bottomDivider && 'has-bottom-divider'
   );
 
-  const splitClasses = classNames(
-    'split-wrap',
-    invertMobile && 'invert-mobile',
-    invertDesktop && 'invert-desktop',
-    alignTop && 'align-top'
-  );
-
   const sectionHeader = {
     title: 'Our Process',
     paragraph: ''
@@ -62,9 +55,16 @@ const FeaturesSplit = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
-          <div className={splitClasses}>
+          <div>
+            <div >
+              <Image
+                src={require('./../../assets/images/roadmap1.png')}
+                alt="Features split 01"
+                width={1200}
+                height={800} />
+            </div>
 
-            <div className="split-item">
+            {/* <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   </div>
@@ -189,7 +189,7 @@ const FeaturesSplit = ({
                   width={528}
                   height={396} />
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>

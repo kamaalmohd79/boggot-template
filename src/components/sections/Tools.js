@@ -24,14 +24,11 @@ const Tools = ({
   ...props
 }) => {
 
-  const outerClasses = classNames(
-    'testimonial section',
-    topOuterDivider && 'has-top-divider',
-    bottomOuterDivider && 'has-bottom-divider',
-    hasBgColor && 'has-bg-color',
-    invertColor && 'invert-color',
-    className
-  );
+  const innerClasses = classNames(
+      'features-tiles-inner section-inner',
+      topDivider && 'has-top-divider',
+      bottomDivider && 'has-bottom-divider'
+    );
 
   const toolsData = [
     {
@@ -67,7 +64,7 @@ const Tools = ({
 
   return (
     <section {...props}
-      className={outerClasses}>
+      className={innerClasses}>
       <SectionHeader data={sectionHeader} className="center-content" />
       <div className="container">
         <div className="card-container">
