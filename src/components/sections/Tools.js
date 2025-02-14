@@ -58,7 +58,7 @@ const Tools = ({
   ];
 
   const sectionHeader = {
-    title: 'Tools & Tech Stack',
+    title: 'Our Stack',
     paragraph: ''
   };
 

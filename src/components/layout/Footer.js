@@ -4,6 +4,7 @@ import classNames from 'classnames';
 import Logo from './partials/Logo';
 import FooterNav from './partials/FooterNav';
 import FooterSocial from './partials/FooterSocial';
+import { Link } from "react-scroll";
 
 const propTypes = {
   topOuterDivider: PropTypes.bool,
@@ -40,7 +41,7 @@ const Footer = ({
             topDivider && 'has-top-divider'
           )}>
           <div className="footer-top space-between text-xxs">
-            <Logo />
+            <Link to="home" smooth={true}> <Logo /> </Link>  
             <FooterSocial />
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">

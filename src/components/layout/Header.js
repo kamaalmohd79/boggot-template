@@ -85,7 +85,7 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
-          <Logo />
+          <Link to="home" smooth={true}> <Logo /> </Link>  
           {!hideNav &&
             <>
               <button
